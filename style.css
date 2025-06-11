@@ -270,7 +270,7 @@ footer {
   box-shadow: 0 8px 40px #00e1ff22, 0 2px 8px #0008;
   transition: box-shadow 0.3s;
   background-image: linear-gradient(135deg, #23263a9b 10%, #181c24ac 120%),
-    url("backgroundPulleys.jpg");
+    url("media/backgroundPulleys.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -289,7 +289,7 @@ footer {
   box-shadow: 0 8px 40px #00e1ff22, 0 2px 8px #0008;
   transition: box-shadow 0.3s;
   background-image: linear-gradient(135deg, #23263a9b 10%, #181c24ac 120%),
-    url("backgroundLevers.jpg");
+    url("media/backgroundLevers.jpg");
   background-size: cover;
   background-position: center;
 }
