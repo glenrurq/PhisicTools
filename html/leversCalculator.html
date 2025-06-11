@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pulleys Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <img src="ChatGPT Image 6 jun 2025, 21_44_21.png" alt="" />
+      </header>
+
+      <section class="calculator levers">
+        <div class="explanation">
+          <h1>Levers Calculator</h1>
+          <p>
+            This calculator helps you determine the mechanical advantage and
+            efficiency of a lever. Select what you want to calculate and input
+            the required values.
+          </p>
+        </div>
+
+        <div class="Levers">
+          <label for="lever_target">What do you want to calculate?</label>
+          <select id="lever_target" name="lever_target">
+            <option value="Lforce">Force (F)</option>
+            <option value="resistance">Resistance (R)</option>
+            <option value="resistance_arm">Resistance arm (RA)</option>
+            <option value="Lforce_arm">Force arm (FA)</option>
+          </select>
+
+          <div class="inputs-Lforce" style="display: block">
+            <label>
+              Resistance (R):
+              <input
+                id="resistance_input"
+                name="resistance"
+                type="number"
+                min="0"
+                step="any"
+              />
+            </label>
+            <label>
+              Force arm (FA):
+              <input
+                id="Lforce_arm_input"
+                name="Lforce_arm"
+                type="number"
+                min="0"
+                step="1"
+              />
+            </label>
+            <label>
+              Resistance arm (RA):
+              <input
+                id="resistance_arm_input"
+                name="resistance_arm"
+                type="number"
+                min="0"
+                step="1"
+              />
+            </label>
+          </div>
+
+          <div class="inputs-resistance" style="display: none">
+            <label>
+              Force (F):
+              <input
+                id="Lforce_input"
+                name="Lforce"
+                type="number"
+                min="0"
+                step="any"
+              />
+            </label>
+            <label>
+              Force arm (FA):
+              <input
+                id="Lforce_arm_input2"
+                name="Lforce_arm"
+                type="number"
+                min="0"
+                step="1"
+              />
+            </label>
+            <label>
+              Resistance arm (RA):
+              <input
+                id="resistance_arm_input2"
+                name="resistance_arm"
+                type="number"
+                min="0"
+                step="1"
+              />
+            </label>
+          </div>
+
+          <div class="inputs-resistance_arm" style="display: none">
+            <label>
+              Resistance (R):
+              <input
+                id="resistance_input2"
+                name="resistance"
+                type="number"
+                min="0"
+                step="any"
+              />
+            </label>
+            <label>
+              Force arm (FA):
+              <input
+                id="Lforce_arm_input3"
+                name="Lforce_arm"
+                type="number"
+                min="0"
+                step="1"
+              />
+            </label>
+            <label>
+              Force (F):
+              <input
+                id="Lforce_input2"
+                name="Lforce"
+                type="number"
+                min="0"
+                step="any"
+              />
+            </label>
+          </div>
+
+          <div class="inputs-Lforce_arm" style="display: none">
+            <label>
+              Resistance (R):
+              <input
+                id="resistance_input3"
+                name="resistance"
+                type="number"
+                min="0"
+                step="any"
+              />
+            </label>
+            <label>
+              Resistance arm (RA):
+              <input
+                id="resistance_arm_input3"
+                name="resistance_arm"
+                type="number"
+                min="0"
+                step="1"
+              />
+            </label>
+            <label>
+              Force (F):
+              <input
+                id="Lforce_input3"
+                name="Lforce"
+                type="number"
+                min="0"
+                step="any"
+              />
+            </label>
+          </div>
+
+          <button id="calculate_lever" type="button">Calculate</button>
+          <p id="result_lever">Here will appear the result</p>
+        </div>
+      </section>
+
+      <footer>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,
+        doloribus?
+      </footer>
+    </div>
+  </body>
+</html>

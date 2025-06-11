@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pulleys Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <img src="ChatGPT Image 6 jun 2025, 21_44_21.png" alt="" />
+      </header>
+
+      <section class="calculator">
+        <div class="explanation">
+          <h1>Pulleys Calculator</h1>
+          <p>
+            This calculator helps you determine the mechanical advantage and
+            efficiency of a pulley system. Select what you want to calculate and
+            input the required values.
+          </p>
+        </div>
+
+        <div class="Pulleys">
+          <select id="pulley_target" name="pulley_target">
+            <option value="force">Force (F)</option>
+            <option value="weight">Weight (R)</option>
+            <option value="number">Number of movable pulleys (n)</option>
+          </select>
+
+          <div class="inputs-force" style="display: block">
+            <label>
+              Weight (R):
+              <input id="force" name="force" type="number" min="0" step="any" />
+            </label>
+
+            <label>
+              Number of movable pulleys (n):
+              <input id="number" name="number" type="number" min="0" step="1" />
+            </label>
+          </div>
+
+          <div class="inputs-weight" style="display: none">
+            <label>
+              Force (F):
+              <input
+                id="weight"
+                name="weight"
+                type="number"
+                min="0"
+                step="any"
+              />
+            </label>
+            <label>
+              Number of movable pulleys (n):
+              <input
+                id="number2"
+                name="number2"
+                type="number"
+                min="0"
+                step="1"
+              />
+            </label>
+          </div>
+
+          <div class="inputs-number" style="display: none">
+            <label>
+              Force (F):
+              <input
+                id="force2"
+                name="force2"
+                type="number"
+                min="0"
+                step="any"
+              />
+            </label>
+            <label>
+              Weight (R):
+              <input
+                id="weight2"
+                name="weight2"
+                type="number"
+                min="0"
+                step="any"
+              />
+            </label>
+          </div>
+
+          <button id="calculate_pulley" type="button">Calculate</button>
+
+          <p id="result_pulley">Here will appear the result</p>
+        </div>
+      </section>
+      <footer>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,
+        doloribus?
+      </footer>
+    </div>
+  </body>
+</html>
