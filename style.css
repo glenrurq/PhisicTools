@@ -206,7 +206,7 @@ section .hero p {
 
 .tools .lorem {
   background: radial-gradient(circle at 60% 40%, #23263a 85%, #34405a 100%);
-  color: #e0e6f0;
+  color: #c5ccd6;
   padding: 18px;
   overflow-y: hidden;
   border: 1px solid #2d3147;
@@ -215,12 +215,14 @@ section .hero p {
   height: 100%;
   width: 100%;
   opacity: 0.9;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: 'Montserrat', "Segoe UI", Arial, sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   transition: background 0.3s cubic-bezier(0.4, 2, 0.6, 1), color 0.2s,
     opacity 0.2s, transform 0.2s, box-shadow 0.3s, border-color 0.3s;
+  text-align: center;
+  font-size: 1.16em;
 }
 
 .tools .lorem img {
